@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Tickets Mall"  verbose="5" preserve-order="true" >
+	<parameter name="browserType" value="Chrome" />
+	<parameter name="url" value="https://subscribe.stctv.com/" />
+
+	<test name="Promo Revamp Tests">
+		<classes>
+	    	<class name="com.fawry.TicketsMall.angularAutomation.tests.KSATest" />
+	    	<class name="com.fawry.TicketsMall.angularAutomation.tests.BahrainTest" />
+	    	<class name="com.fawry.TicketsMall.angularAutomation.tests.KuwaitTest" />
+
+		</classes>
+	</test>
+
+
+</suite>

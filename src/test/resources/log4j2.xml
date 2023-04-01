@@ -5,8 +5,8 @@
             <PatternLayout
                     pattern="[%-5level] %d{yyyyMMdd-HHmmss} [%t] %M- %msg%n" />
         </Console>
-        <RollingFile name="rollingfile" fileName="/Users/wessam.abdelsalam/Documents/Fawry Work/Automation/PromoLoyaltyTA/test-output/logs/PromoLoyaltyAutomation.log"
-                     filePattern="/Users/wessam.abdelsalam/Documents/Fawry Work/Automation/PromoLoyaltyTA/test-output/logs/PromoLoyaltyAutomation-%d{yyyyMMddHHmmss}.log">
+        <RollingFile name="rollingfile" fileName="/Users/wessam.abdelsalam/Documents/STC Work/Automation/PromoLoyaltyTA/test-output/logs/PromoLoyaltyAutomation.log"
+                     filePattern="/Users/wessam.abdelsalam/Documents/STC Work/Automation/PromoLoyaltyTA/test-output/logs/PromoLoyaltyAutomation-%d{yyyyMMddHHmmss}.log">
             <PatternLayout>
                 <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss} [%t] %M- %msg%n
                 </pattern>

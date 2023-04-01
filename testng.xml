@@ -8,9 +8,8 @@
 
 	<test name="STC Tests">
 		<classes>
-			<class name="com.fawry.TicketsMall.angularAutomation.tests.KuwaitTest" />
-			<class name="com.fawry.TicketsMall.angularAutomation.tests.KSATest" />
-			<class name="com.fawry.TicketsMall.angularAutomation.tests.BahrainTest" />
+			<class name="com.STC.STC.angularAutomation.tests.STCTest" />
+
 
 		</classes>
 	</test>
